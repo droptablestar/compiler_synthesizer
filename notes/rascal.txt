@@ -1,0 +1,3 @@
+- some imperative java-like syntax
+- type inference
+- 

@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[11pt]{article}
+\usepackage{times,url,amsmath,mathpazo,xltxtra,fancyhdr,xunicode,hyperref,
+  amssymb,amsthm,mathpartir,exercise,fontspec,newunicodechar,alltt}
+
+\usepackage[nohead,nofoot,vmargin=1.25in,hmargin=1.25in]{geometry}
+
+\input{/Users/jreese/Documents/uni/commands.tex}
+\date{}
+
+\title{Synthesising A Compiler\author{Josh Reese}}
+
+\begin{document}
+\maketitle
+Imagine designing and implementing a programming language but not
+having to write a compiler or interpreter for it. In this talk we will
+present a system which can be used for the automatic generation of a
+compiler. The idea for this work comes from the area of program
+synthesis which aims to take a partially completed program, or a
+program with `holes', and complete the program.
+
+In order to demonstrate this we have designed two simple
+languages. One which contains various bit of syntactic `sugar' and one
+which does not. From the specifications of these two languages, and
+the use of various simple input programs, we are able to automatically
+generate a compiler from the higher level language to the lower level
+language.  
+\end{document}

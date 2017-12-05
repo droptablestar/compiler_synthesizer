@@ -1,0 +1,14 @@
+let isPrime =
+  fun n ->
+  (fun i ->
+   if ((n%i) = 0) then 0
+   else
+     if (i>=(n/2)) then 1
+     else isPrime(n,(i+1))
+     end
+   end)
+end
+;;
+let x = 2 in
+    isPrime(53,x)
+end

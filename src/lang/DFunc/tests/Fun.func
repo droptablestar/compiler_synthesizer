@@ -1,0 +1,9 @@
+let f =
+  fun x ->
+  (fun y ->
+   (fun z ->
+    (fun a ->
+     a)))
+end
+;;
+f(3,4,5,6)

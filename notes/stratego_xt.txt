@@ -1,0 +1,16 @@
+XT:
+- component architecture:?
+
+- collection of components for basic transformation:?
+  
+Stratego:
+- term rewriting language for implementing custom components
+
+ATerms:
+- program representation
+
+SDF:
+- syntax definitions and parsing
+
+GPP:
+- pretty printing

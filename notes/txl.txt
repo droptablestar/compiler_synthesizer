@@ -1,0 +1,14 @@
+- specifically designed for analysis and 'source transformation'
+
+- TXL program:
+  - description of structure to transform:
+    - context-free ambiguous grammar in BNF
+  - transformation rules:
+    - by example as pattern/replacement pairs
+
+- based on formal tree rewriting
+
+- could we synthesise the transformation examples?
+- could the user provide a couple examples and we synthesise from
+  that?
+
